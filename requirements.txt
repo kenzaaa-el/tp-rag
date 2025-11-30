@@ -1,0 +1,39 @@
+# --------------------------
+# Core Dependencies
+# --------------------------
+numpy
+pandas
+PyYAML
+tqdm
+
+# --------------------------
+# HTTP / API Clients
+# --------------------------
+requests
+python-dotenv
+
+# --------------------------
+# PDF & Text Processing
+# --------------------------
+pdfplumber
+rank-bm25
+
+# --------------------------
+# Vector Store
+# --------------------------
+chromadb==0.4.22
+
+# --------------------------
+# Machine Learning / Embeddings
+# --------------------------
+scikit-learn
+
+# --------------------------
+# Web UI
+# --------------------------
+streamlit
+
+# --------------------------
+# Report Generation (PDF)
+# --------------------------
+reportlab
