@@ -1,0 +1,25 @@
+# -------------------------
+#  CONFIGURATION DU PROJET
+# -------------------------
+
+openrouter:
+  api_key: "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"
+  chat_url: "https://openrouter.ai/api/v1/chat/completions"
+  embed_url: "https://openrouter.ai/api/v1/embeddings"
+  model_chat: "openai/gpt-4o-mini"
+  model_embed: "openai/text-embedding-3-small"
+
+paths:
+  data_dir: "data/"
+  chunks_dir: "data/chunks/"
+  vector_store: "data/vector_store/"
+  bm25_index: "data/bm25_index/bm25.pkl"
+
+retrieval:
+  dense_k: 5
+  bm25_k: 3
+  fusion_k: 5
+
+generator:
+  max_tokens: 400
+  temperature: 0.2
